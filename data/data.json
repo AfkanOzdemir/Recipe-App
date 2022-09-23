@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "first_name": "Nappie",
+    "last_name": "Klimuk",
+    "gender": "Male",
+    "ip_address": "208.177.147.234"
+  },
+  {
+    "id": 2,
+    "first_name": "Lou",
+    "last_name": "Caldron",
+    "gender": "Male",
+    "ip_address": "223.78.108.168"
+  },
+  {
+    "id": 3,
+    "first_name": "Damita",
+    "last_name": "Ivashinnikov",
+    "gender": "Female",
+    "ip_address": "255.210.105.30"
+  }
+]
