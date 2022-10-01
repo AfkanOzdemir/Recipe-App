@@ -11,6 +11,14 @@ input:focus, textarea:focus, select:focus{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+ul li::before {
+  content: "\2022";
+  color: #348756 ;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

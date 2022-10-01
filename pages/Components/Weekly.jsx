@@ -15,7 +15,6 @@ const Weekly = () => {
       'X-RapidAPI-Host': 'tasty.p.rapidapi.com'
     }
   };
-  
   const [loading, setLoading] = useState(false);
   const [val, setVal] = useState();
   const { recipeVal, setRecipeVal } = useContext(MainContext);

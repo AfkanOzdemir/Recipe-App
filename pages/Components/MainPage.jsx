@@ -1,7 +1,4 @@
 import React from "react";
-import Best from "./Best";
-import Drinks from "./Drinks";
-import Weekly from "./Weekly";
 import { MainContext, useContext } from "../Context";
 const MainPage = () => {
   const { screen, setScreen } = useContext(MainContext);

@@ -5,17 +5,13 @@ import MainPage from "./Components/MainPage";
 import Header from "./Components/ui/Header";
 import Navbar from "./Components/ui/Navbar";
 import { MainContext } from "./Context";
-import Weekly from "./Components/Weekly";
-import Drinks from "./Components/Drinks";
-import Best from "./Components/Best";
+import Categories from "./Components/Categories";
 export default function Home() {
   const [recipeVal, setRecipeVal] = useState([]);
-  const [screen, setScreen] = useState([<Weekly key="value"/> , <Drinks key="value"/> , <Best key="value"/>]);
+  const [profile, setProfile] = useState([]);
+  const [screen, setScreen] = useState(<Categories />);
   const data = {
-    recipeVal,
-    setRecipeVal,
-    screen,
-    setScreen,
+    recipeVal, setRecipeVal, screen, setScreen, profile, setProfile,
   };
   return (
     <MainContext.Provider value={data}>
